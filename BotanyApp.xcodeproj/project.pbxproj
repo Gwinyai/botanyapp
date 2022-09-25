@@ -24,6 +24,7 @@
 		E1A098BA28C4C9CC00A1CB59 /* PlantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A098B928C4C9CC00A1CB59 /* PlantCollectionViewCell.swift */; };
 		E1D7FF9628DB8B2400926C88 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7FF9528DB8B2400926C88 /* FavoriteTableViewCell.swift */; };
 		E1E9CB8D28E09EBE000B9E5B /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9CB8C28E09EBD000B9E5B /* PlantModel.swift */; };
+		E1E9CB9228E0A7AC000B9E5B /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9CB9128E0A7AC000B9E5B /* NotificationKeys.swift */; };
 		E1ED4E5B28C773EF00E2E1D5 /* AddPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ED4E5A28C773EF00E2E1D5 /* AddPlantViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		E1A098B928C4C9CC00A1CB59 /* PlantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCollectionViewCell.swift; sourceTree = "<group>"; };
 		E1D7FF9528DB8B2400926C88 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		E1E9CB8C28E09EBD000B9E5B /* PlantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
+		E1E9CB9128E0A7AC000B9E5B /* NotificationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKeys.swift; sourceTree = "<group>"; };
 		E1ED4E5A28C773EF00E2E1D5 /* AddPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 		E1A098A428C4C74000A1CB59 /* BotanyApp */ = {
 			isa = PBXGroup;
 			children = (
+				E1E9CB9028E0A740000B9E5B /* General */,
 				E1E9CB8E28E09F84000B9E5B /* Storyboards */,
 				E1E9CB8B28E09E7F000B9E5B /* Models */,
 				E1E9CB8A28E09E4C000B9E5B /* Views */,
@@ -141,6 +144,14 @@
 				E148C94128D4ACBE00B4D534 /* Favorites.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E1E9CB9028E0A740000B9E5B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9CB9128E0A7AC000B9E5B /* NotificationKeys.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E9CB9228E0A7AC000B9E5B /* NotificationKeys.swift in Sources */,
 				E1ED4E5B28C773EF00E2E1D5 /* AddPlantViewController.swift in Sources */,
 				E1D7FF9628DB8B2400926C88 /* FavoriteTableViewCell.swift in Sources */,
 				E148C94828D4BC4D00B4D534 /* Data.swift in Sources */,

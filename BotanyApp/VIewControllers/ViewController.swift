@@ -7,8 +7,8 @@
 
 import UIKit
 
-let updatePostsNotificationKey = "com.gwinyai.botanyapp.updateposts"
-let relodCollectionViewNotificationKey = "com.gwinyai.botanyapp.reloadCollectionView"
+
+
 
 class ViewController: UIViewController {
     
