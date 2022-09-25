@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="02r-Wp-8up">
-                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <rect key="frame" x="0.0" y="153" width="414" height="743"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dNP-Jy-spy">
                                     <size key="itemSize" width="121" height="138"/>
@@ -76,14 +76,23 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uba-fa-16v">
+                                <rect key="frame" x="73.5" y="107" width="267" height="32"/>
+                                <segments>
+                                    <segment title="Order by Date"/>
+                                    <segment title="Order by Favorites"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="02r-Wp-8up" secondAttribute="bottom" id="8s8-Rc-OqY"/>
+                            <constraint firstItem="uba-fa-16v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mpq-5w-soC"/>
                             <constraint firstItem="02r-Wp-8up" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="N01-3Y-Oj3"/>
+                            <constraint firstItem="02r-Wp-8up" firstAttribute="top" secondItem="uba-fa-16v" secondAttribute="bottom" constant="15" id="ite-te-q2a"/>
+                            <constraint firstItem="uba-fa-16v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="nWS-fk-Cmu"/>
                             <constraint firstItem="02r-Wp-8up" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oBC-5y-jub"/>
-                            <constraint firstItem="02r-Wp-8up" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="odi-yn-JMb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Botany" id="IQh-8O-ESG"/>
